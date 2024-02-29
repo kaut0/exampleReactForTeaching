@@ -6,10 +6,12 @@ const Home = () => {
     document.title = "Home";
   }, []);
   return (
-    <div className="px-6">
-      <NavbarComponent />
-      <div className="h-52 sm:h-64 xl:h-80 2xl:h-96 mb-2">
-        <Carousel slideInterval={2000}>
+    <div>
+      <div className="bg-gradient-to-r from-cokelatKuning-900 to-cokelatKuning-50">
+        <NavbarComponent />
+      </div>
+      <div className="h-52 sm:h-64 xl:h-80 2xl:h-96 mb-2 bg-gradient-to-r from-cokelatKuning-900 to-cokelatKuning-50">
+        <Carousel indicators={false} leftControl={false} slideInterval={2000}>
           <img
             src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
             alt="..."
