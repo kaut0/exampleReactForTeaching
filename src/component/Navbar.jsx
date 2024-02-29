@@ -76,8 +76,8 @@ export default function NavbarComponent() {
         >
           About
         </Navbar.Link>
-        <Navbar.Link className="mx-8 sm:mx-0" href="#" active={false}>
-          Services
+        <Navbar.Link className="mx-8 sm:mx-0" href="/product" active={false}>
+          Product
         </Navbar.Link>
         <Navbar.Link className="mx-8 sm:mx-0" href="#" active={false}>
           Pricing

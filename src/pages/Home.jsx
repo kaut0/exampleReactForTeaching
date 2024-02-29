@@ -11,6 +11,7 @@ const Home = () => {
         <NavbarComponent />
       </div>
       <div className="h-52 sm:h-64 xl:h-80 2xl:h-96 mb-2 bg-gradient-to-r from-cokelatKuning-900 to-cokelatKuning-50">
+        <div className="absolute z-50 top-1">tex</div>
         <Carousel indicators={false} leftControl={false} slideInterval={2000}>
           <img
             src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
